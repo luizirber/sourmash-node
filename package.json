@@ -1,0 +1,35 @@
+{
+  "name": "sourmash-node",
+  "version": "0.1.0",
+  "description": "tools for comparing DNA sequences with MinHash sketches",
+  "keywords": [
+    "minhash"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "deps": "dependency-check . && dependency-check . --extra --no-dev",
+    "test": "standard && npm run deps && tape 'test/*.js' | tap-spec",
+    "coverage": "nyc report --reporter=text-lcov > coverage.lcov"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/luizirber/sourmash-node.git"
+  },
+  "author": "Luiz Irber <sourmash@luizirber.org>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/luizirber/sourmash-node/issues"
+  },
+  "homepage": "https://sourmash.readthedocs.org",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "dependency-check": "^2.8.0",
+    "debug": "^2.6.0",
+    "nyc": "^10.1.2",
+    "standard": "*",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.3"
+  },
+  "private": true
+}
