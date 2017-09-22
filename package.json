@@ -22,7 +22,6 @@
   },
   "homepage": "https://sourmash.readthedocs.org",
   "dependencies": {
-    "binarysearch": "^1.0.0",
     "node-murmurhash": "^2.1.0"
   },
   "devDependencies": {
