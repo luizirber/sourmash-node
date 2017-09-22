@@ -22,7 +22,7 @@
   },
   "homepage": "https://sourmash.readthedocs.org",
   "dependencies": {
-    "node-murmurhash": "^2.1.0"
+    "murmurhash3js": "^3.0.1"
   },
   "devDependencies": {
     "dependency-check": "^2.8.0",
