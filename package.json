@@ -26,8 +26,8 @@
   },
   "devDependencies": {
     "dependency-check": "^2.8.0",
-    "debug": "^2.6.0",
-    "nyc": "^10.1.2",
+    "debug": "^3.0.1",
+    "nyc": "^11.2.1",
     "standard": "*",
     "tap-spec": "^4.1.1",
     "tape": "^4.6.3"
