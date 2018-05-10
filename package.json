@@ -27,7 +27,7 @@
   "devDependencies": {
     "dependency-check": "^3.0.0",
     "debug": "^3.0.1",
-    "nyc": "^11.2.1",
+    "nyc": "^11.7.3",
     "standard": "*",
     "tap-spec": "^4.1.1",
     "tape": "^4.6.3"
