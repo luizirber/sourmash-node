@@ -1,5 +1,6 @@
 # Sourmash
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/luizirber/sourmash-node.svg)](https://greenkeeper.io/)
+DEPRECATED. Current NPM package is built from
+https://github.com/luizirber/sourmash-rust using wasm-bindgen.
 
 > npm install -g sourmash
